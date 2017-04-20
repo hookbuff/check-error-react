@@ -9,7 +9,7 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "babel": "^6.23.0",
     "babel-cli": "^6.24.1",
     "babel-loader": "^6.4.1",
@@ -18,14 +18,11 @@
     "babel-register": "^6.24.1",
     "express": "^4.15.2",
     "express-handlebars": "^3.0.0",
-    "history": "^4.6.1",
+    "path": "^0.12.7",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "react-router": "^4.1.1",
+    "react-router": "^3.0.5",
     "serve-favicon": "^2.4.2",
     "webpack": "^2.4.1"
-  },
-  "dependencies": {
-    "path": "^0.12.7"
   }
 }

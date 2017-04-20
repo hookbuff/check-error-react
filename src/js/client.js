@@ -3,14 +3,13 @@ import React from 'react'
 import ReactDOM from 'react-dom';
  
 // โหลดความสามารถของ react-router มาใช้งาน
-import { Router } from 'react-router';
-import createBrowserHistory from 'history/createBrowserHistory';
+import { Router, browserHistory } from 'react-router';
  
 // โหลด route ต่างๆ ที่เราได้กำหนดไว้
 import routes from './routes.jsx';
  
 // render ลงไปใน DOM ที่ #content
 ReactDOM.render(
-    <Router routes={routes} history={createBrowserHistory()} />, 
+    <Router routes={routes} history={browserHistory} />, 
     document.getElementById('content')
 );
